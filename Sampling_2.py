@@ -33,7 +33,7 @@ for N in N_list:
     samples.append([samples_ST,samples_VT])
     
     
-'''PROBLEM (a) plotting'''
+''' plotting'''
 
 plt.figure(figsize=(10,5*len(N_list)))
 for n in range(len(N_list)):
@@ -54,7 +54,7 @@ plt.show()
 
 
 
-'''PROBLEM (b) generating samples'''
+''' generating samples'''
 
 N_list = [1,2,5,10,100,1000]; K_list = [100,500,1000,5000,10000]
 estimations = [] #should be 3D list, 6 N's, 5 K's, and each K has K samples
@@ -78,7 +78,7 @@ for N in N_list:
         
     estimations.append(estimations_N)
     
-'''PROBLEM (b) plotting'''
+''' plotting'''
 
 plt.figure(figsize=(5*len(K_list),5*len(N_list)))
 
@@ -99,7 +99,7 @@ plt.show()
 
 
 
-'''PROBLEM (c) generating samples'''
+''' generating samples'''
 
 K_list = [100,500,1000,5000,10000]
 
@@ -119,7 +119,7 @@ for K in K_list:
     estimations.append(samples)
 print(estimations)
     
-'''PROBLEM (c) plotting'''
+''' plotting'''
 plt.figure(figsize=(5,5*len(K_list)))
 for i in range(len(K_list)): # i = 0,1,2,3,4
     
