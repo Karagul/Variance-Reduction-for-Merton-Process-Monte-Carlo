@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
-# Problem 7(a)
+
 # parameters
 T = 1; s0 = 100; v0 = 0.12; kappa = 2; theta = 0.15; sigma = 0.8; r = 0
 # Function for Euler
